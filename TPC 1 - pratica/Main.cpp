@@ -236,9 +236,14 @@ void drawScene(void) {
 	//set the screen to the background color
 	glClear(GL_COLOR_BUFFER_BIT);
 
+	//1 -
+
 	drawgrid(25);
 
 	glColor3f(1, 0, 1);
+
+	//2 -
+	//2.1 -
 
 	glBegin(GL_POLYGON);
 	drawA();
@@ -249,8 +254,10 @@ void drawScene(void) {
 	glBegin(GL_POLYGON);
 	drawB();
 	glEnd();
-	/*
+	
 	glColor3f(1, 0, 0);
+
+	//2.2 -
 
 	glBegin(GL_TRIANGLES);
 	drawA();
@@ -261,7 +268,7 @@ void drawScene(void) {
 	glBegin(GL_TRIANGLES);
 	drawB();
 	glEnd();
-	*/
+	
 	//send the scene to be rendered
 	glFlush();
 
