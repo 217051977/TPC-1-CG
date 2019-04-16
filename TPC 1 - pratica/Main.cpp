@@ -325,7 +325,7 @@ int main(int argc, char **argv) {
 	//sets the position of the window based on the top left corner
 	glutInitWindowPosition(X_WINDOW_POSITION, Y_WINDOW_POSITION);
 	//create the OpenGL window has been set up with the name
-	glutCreateWindow("Castle.cpp");
+	glutCreateWindow("TPC1.cpp");
 	//call the function
 	setup();
 	//set the function which will get the Scene from
